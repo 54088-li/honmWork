@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>爱宠知识</title>
+    <style>
+        * { margin: 0; padding: 0; }
+
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background-color: #e8e8e8;
+        }
+
+        /* 外面的盒子 */
+        .outer-box {
+            width: 370px;
+            height: 550px;
+            margin: 30px auto;
+            border-radius: 15px;
+            background-image: url("bg.gif");
+            background-repeat: repeat;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        /* 标题 */
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            padding-left: 12px;
+            border-left: 4px solid #bbeb2c;
+            margin-bottom: 15px;
+            line-height: 1;
+        }
+
+        /* 里面的盒子 */
+        .inner-box {
+            width: 350px;
+            height: 460px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            padding: 15px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        /* 列表 */
+        .pet-list {
+            list-style: none;
+        }
+
+        .pet-list li {
+            line-height: 48px;
+            border-bottom: 1px dashed #ccc;
+            background-image: url("tb.gif");
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 22px;
+        }
+
+        .pet-list li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .pet-list li a:hover {
+            font-weight: bold;
+            color: #739311;
+            text-shadow: 1px 1px 2px #bbeb2c;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <h2 class="title">爱宠知识</h2>
+        <div class="inner-box">
+            <ul class="pet-list">
+                <li><a href="#">养狗比养猫对健康更有利</a></li>
+                <li><a href="#">日本正宗柴犬亮相，你怎么看柴犬？</a></li>
+                <li><a href="#">狗狗歌曲《新年旺旺》</a></li>
+                <li><a href="#">带宠兜风，开车带宠需要注意什么？</a></li>
+                <li><a href="#">【爆笑】这狗狗太不给力了！</a></li>
+                <li><a href="#">狗狗与男童相同着装拍有爱造型照</a></li>
+                <li><a href="#">狗狗各个阶段健康大事件</a></li>
+                <li><a href="#">调皮宠物狗陷在沙发里的搞笑瞬间</a></li>
+                <li><a href="#">为什么每次大小便后，会用脚踢土？</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
